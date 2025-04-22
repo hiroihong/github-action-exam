@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class AppController {
     @GetMapping("/")
     public String home() {
-        return "Hello, World! Aoutomated deployment with GitHub Actions!";
+        return "진짜 편하긴 해";
     }
 }
